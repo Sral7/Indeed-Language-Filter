@@ -13,7 +13,7 @@ To install the extension, follow these steps:
 
 To use the extension, follow these steps:
 
-- Navigate to an indeed job search page on chrome
+- Navigate to an indeed job search page
 - Click on the extension icon
 - Select the languages you speak
 - Click the filter button and have undesirable jobs filtered out
