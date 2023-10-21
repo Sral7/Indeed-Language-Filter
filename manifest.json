@@ -1,0 +1,33 @@
+{
+    "name": "Indeed Language Filter",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "Only Display Jobs In Languages You Speak",
+    "icons": {
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    },
+    "permissions": [
+        "activeTab"
+      ],
+
+    "action": {
+      "default_popup": "popup/popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+            "<all_urls>"
+        ], 
+        "js": [
+          "content_scripts/filter.js"
+        ],
+        "run_at": "document_idle"
+      }
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://cdn.jsdelivr.net/;"
+  }
+  }
+
+
