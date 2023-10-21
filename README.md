@@ -3,7 +3,6 @@
 
 Chrome browser extension that allows you to easily filter jobs on indeed that are in language you do not speak.
 
-Installation
 To install the extension, follow these steps:
 
 - Clone the repository to your local machine.
@@ -11,3 +10,10 @@ To install the extension, follow these steps:
 - Enable developer mode.
 - Click on the "Load unpacked" button.
 - Select the directory where you cloned the repository.
+
+To use the extension, follow these steps:
+
+- Navigate to an indeed job search page on chrome
+- Click on the extension icon
+- Select the languages you speak
+- Click the filter button and have undesirable jobs filtered out
